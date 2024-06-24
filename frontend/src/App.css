@@ -1,0 +1,21 @@
+.main-container {
+  background-color: #ffffff;
+  max-width: 1024px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  padding-top: 30.4%;
+  background-image: url('../public/banner.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
